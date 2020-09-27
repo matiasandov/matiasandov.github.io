@@ -1,0 +1,45 @@
+body, html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    /*aqui le mueves para sber que tan alta hacer la barrita*/
+    height: 120px;
+    background-color: rgba(255,255,255,0.8);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgb(200,200,200);
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    
+}
+
+/*color nomas */
+#barrita{
+    background-color: rgb(51, 204, 204);
+
+}
+
+#miInfoPrincipal{
+    align-items: center;
+    justify-content: center;
+
+}
+
+#titulos{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 2rem;
+    /*ensanchar el contendor*/
+    text-decoration: none;
+    /*alinear texto*/
+    box-align: center;
+    justify-content: center;
+}
