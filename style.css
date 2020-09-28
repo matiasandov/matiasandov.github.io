@@ -24,6 +24,7 @@ nav{
 /*color nomas */
 #barrita{
     background-color: rgb(51, 204, 204);
+    text-align: center;
 
 }
 
@@ -58,6 +59,7 @@ nav{
     /*alinear texto*/
     box-align: center;
     justify-content: center;
+    text-align: center;
 }
 
 .centerTodo{
