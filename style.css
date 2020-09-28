@@ -87,3 +87,18 @@ figcaption {
     display:block;
     transition: all .5s;
   }
+
+  /* texto alineado encima de imagen */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Contenedor de imagen y texto */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
