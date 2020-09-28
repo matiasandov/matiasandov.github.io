@@ -75,3 +75,15 @@ nav{
     /*imagen*/
 
 }
+
+/* Texto flotante sobre imagen */
+/* Invisible texto */
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+  /* Visible texto */
+  figure:hover > figcaption {
+    display:block;
+    transition: all .5s;
+  }
