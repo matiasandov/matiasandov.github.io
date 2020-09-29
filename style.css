@@ -51,6 +51,7 @@ nav{
 }
 
 #titulos{
+    /*color de texto*/
     color: aliceblue;
     font-weight: 600;
     font-size: 2rem;
@@ -82,10 +83,16 @@ figcaption {
     display:none; 
     transition: all .5s;
   }
+
+   /* siemrpe que quieras indicar una instruccion al pasar el raton usas hover*/
   /* Visible texto */
   figure:hover > figcaption {
     display:block;
     transition: all .5s;
+    
+    font-weight: 600;
+    font-size: 1.5rem;
+    word-wrap: break-word;
   }
 
   /* texto alineado encima de imagen */
@@ -101,4 +108,10 @@ figcaption {
     position: relative;
     text-align: center;
     color: white;
+    
+  }
+
+  #opacidad:hover{
+    opacity: 0.5;
+    background-color:#000;
   }
