@@ -110,7 +110,7 @@ figcaption {
     color: white;
     
   }
-
+/* cambiar opacidad y color cuando estes sobre un objeto*/
   #opacidad:hover{
     opacity: 0.5;
     background-color:#000;
