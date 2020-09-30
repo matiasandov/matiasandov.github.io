@@ -133,3 +133,24 @@ figcaption {
         border-color: #494949 !important;
         transition: all 0.3s ease 0s;
         }
+
+ /* ------------font weight es para hacer letras más bold-------
+ a {
+  color: snow;
+  font-weight: 900;
+  
+  text-decoration: none;
+  }
+ 
+a:link {
+color: snow;
+font-weight: 900;
+background-color: transparent;
+text-decoration: none;
+}
+a:hover {
+color: black;
+font-weight: 900;
+background-color: transparent;
+text-decoration: none;
+}*/ 
