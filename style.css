@@ -125,6 +125,9 @@ figcaption {
     border-radius: 6px;
     display: inline-block;
     transition: all 0.3s ease 0s;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
     }
 
     .botonAzul:hover {
