@@ -134,7 +134,7 @@ figcaption {
         transition: all 0.3s ease 0s;
         }
 
- /* ------------font weight es para hacer letras más bold-------
+ /* ------------font weight es para hacer letras más bold-------*/ 
  a {
   color: snow;
   font-weight: 900;
@@ -153,4 +153,4 @@ color: black;
 font-weight: 900;
 background-color: transparent;
 text-decoration: none;
-}*/ 
+}
