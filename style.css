@@ -6,7 +6,7 @@ body, html {
 }
 nav{
     /*aqui le mueves para sber que tan alta hacer la barrita*/
-    height: 120px;
+    height: 70px;
     background-color: rgba(255,255,255,0.8);
     position: sticky;
     top: 0;
@@ -23,7 +23,7 @@ nav{
 
 /*color nomas */
 #barrita{
-    background-color: rgb(51, 204, 204);
+    background-color: lightslategray;
     text-align: center;
 
 }
@@ -32,14 +32,14 @@ nav{
     align-items: center;
     justify-content: center;
 
-    max-width: 1000px;
-    width: 400%;
+  /*asi se ajusta automaticamente*/
+    width: auto;
 
     /*separa entre un contenedor y otro*/
     margin: 30px;
     /*separa adentro del contendor und etermiando espacio*/
     padding: 50px;
-    border: 2px solid rgb(200,200,200);
+    /*border: 2px solid rgb(200,200,200);*/
     /*redondear borde*/
     border-radius: 20px;
     /*formato en el que se acomodaran los elemntos de adentro de los contenedores*/
@@ -67,11 +67,11 @@ nav{
     /*elemento*/    
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+  
     padding: 10px;
     /*texto*/
     text-align: center;
-    border: 3px solid green;
+    
 
     /*imagen*/
 
@@ -127,7 +127,7 @@ figcaption {
     transition: all 0.3s ease 0s;
     position: absolute;
     right: 30px;
-    bottom: 30px;
+    bottom: 7px;
     }
 
     .botonAzul:hover {
