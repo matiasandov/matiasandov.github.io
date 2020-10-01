@@ -35,12 +35,12 @@ nav{
   /*asi se ajusta automaticamente*/
     width: auto;
 
-    /*separa entre un contenedor y otro*/
+    /*separa entre un contenedor y otro
     margin: 30px;
-    /*separa adentro del contendor und etermiando espacio*/
+    /*separa adentro del contendor und etermiando espacio
     padding: 50px;
     /*border: 2px solid rgb(200,200,200);*/
-    /*redondear borde*/
+    /*redondear borde
     border-radius: 20px;
     /*formato en el que se acomodaran los elemntos de adentro de los contenedores*/
     display: block;
@@ -181,21 +181,5 @@ text-decoration: none;
  
 }
 
-.vidContain {
-  width:300px; height:200px;
-  position:relative;
-  display:inline-block;
-  margin:10px;
-}
-.vid {
-  position: absolute; 
-  top: 0; left:0;
-  width: 100%; height: 100%; 
-  z-index: -1;
-}    
-.content {
-  position:absolute;
-  top:0; left:0;
-  background: black;
-  color:white;
-}
+
+
