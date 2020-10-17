@@ -1,5 +1,5 @@
 body, html {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     
@@ -35,14 +35,7 @@ nav{
   /*asi se ajusta automaticamente*/
     width: auto;
 
-    /*separa entre un contenedor y otro
-    margin: 30px;
-    /*separa adentro del contendor und etermiando espacio
-    padding: 50px;
-    /*border: 2px solid rgb(200,200,200);*/
-    /*redondear borde
-    border-radius: 20px;
-    /*formato en el que se acomodaran los elemntos de adentro de los contenedores*/
+    
     display: block;
     flex-direction: column;
     justify-content: start;
