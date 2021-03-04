@@ -5,301 +5,263 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
 
-<title>Matías | This is me</title>
+    <title>Matías Méndez</title>
 <!--Style siempre va dentro de head y las classes se definen con "." al principio-->
-
 </head>
-<body style="background-color: black;" >
-    <nav id="barrita" >
-        <!-- __________barra de hasta arriba______ -->
-        
-        
-        
 
-               <a href="?"  id="titulos">
+<ion-app>
+    <!-- menu de lado, siempre debe de ir al principio para aplicarse en todas las página-->
+    <ion-menu side="start" content-id="main-content">
+      <ion-header>
+          <!--aqui solo por estetica tambien usas toolbar-->
+        <ion-toolbar translucent>
+          <ion-title>Matías Méndez</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list >
+          <ion-item href="mailto:matt.sandov@gmailcom?subject=your title&body=TThe message" >
+            <ion-icon name="at-outline"  size="large"  ></ion-icon>
+          </ion-item>
+
+          <ion-item href="https://github.com/matiasandov">
+            <ion-icon name="logo-github"  size="large"></ion-icon>            
+          </ion-item>
+
+          <ion-item href="https://www.linkedin.com/in/matiasmrms/">
+            <ion-icon name="logo-linkedin"   size="large"></ion-icon>
+            
+          </ion-item>
+         
+          
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+
+<!--aqui empieza el body ya-->
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title>Matías Méndez</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-card class="ion-text-center" >
+            <img src="yo.jpg" class="ion-padding" >
+            <ion-card-header>
+              <ion-card-subtitle>About me</ion-card-subtitle>
+              <ion-card-title>Matías Méndez</ion-card-title>
+            </ion-card-header>
+            <ion-card-content class="ion-padding" >
+                Hey there! Thanks for coming, every single human being is welcomed in here. So basically this me. I like considering myself as an impatient guy who wants to make the world a better place through my passions (programming, raisefunding, art, etc). I invite to know me a litlle more through my blog.  
+           </ion-card-content>
+          </ion-card>
+
+          <!--- proyectos_____________________________-->
+
+          <ion-card>
+            <ion-grid>
+                <ion-row>
+                  <ion-col>
+                    <div  class="ion-text-center">
+                      <h3>Projects</h3>
+                    </div>
+                  </ion-col>
+                </ion-row>
+    
+                <ion-row>
+    
+                  <ion-col class="ion-padding">
+                    
+                    
+                        <div class="ion-text-center" class="ion-padding">
+                            <ion-card-subtitle class="ion-padding">iHeatlh</ion-card-subtitle>
+                          <a  href="https://github.com/a01422885/iHealth">
+                            <!--<figure >
+                                 id="opacidad" alt="iwatch" width="300" height="300" />
+                                <figcaption class="centered" >Watch OS app: iHealth</figcaption>
         
-                   <!-- <img src="https://ctrl-alt-tec.hackclub.com/img/logo-block.png" alt="CtrlAltTec" srcset=""> -->
-                   Matías | This is me
+                            </figure> -->
+                            <img src="iwatch2.jpg"  >
+                        </a>
+                        </div>
+                    
+                    
+                  </ion-col>
+
+                  <ion-col class="ion-padding">
+                      
+                        <div class="ion-text-center">
+                            <ion-card-subtitle class="ion-padding">CovidApp</ion-card-subtitle>
+                          <a  href="https://ctrl-alt-tec.github.io/CovidApp/">
+                            <!--<figure >
+                                 id="opacidad" alt="iwatch" width="300" height="300" />
+                                <figcaption class="centered" >Watch OS app: iHealth</figcaption>
+        
+                            </figure> -->
+                            <img src="covidapp.png" >
+                        </a>
+                        </div>
                 
-               </a>
-        
-               <div>
 
-                <table style="right: 30px;   position: absolute; bottom: 5px;">
-                    <tr>
-                        <td>
-                            <a href="https://www.linkedin.com/in/matiasmrms/"  >
-                                <button class="botonAzul" > LinkedIn </button>        
-                               </a>
+                    
+                  </ion-col>
+                </ion-row>
 
-                        </td>
-                            
-                        <td>
-                            <a href="mailto:matt.sandov@gmailcom?subject=your title&body=TThe message">
-                                <button class="botonAzul"> EMAIL ME</button>
+
+                <ion-row>
+                    <ion-col class="ion-padding">
+                        
+                            <div class="ion-text-center">
+                                <ion-card-subtitle class="ion-padding">Covid Tracker Device</ion-card-subtitle>
+                              <a  href="https://ctrl-alt-tec.github.io/CovidApp/">
+                                
+                                <img src="redcross.jpg" >
                             </a>
-                        </td>
+                            </div>
+                        
 
-                        <td>
-                            <a href="/Users/matiasmendez/Desktop/ProyectosPractica/a01422885.github.io/Matias_resume_google.pdf" >
-                                <button class="botonAzul"> RÉSUMÉ </button>
-                            </a>
+                      </ion-col>
 
+                      <ion-col class="ion-padding">
+                          
 
-                        </td>
-
-                        <td>
-                            <a href="https://github.com/matiasandov">
-                                <button class="botonAzul"> GitHub </button>
-                            </a>
-
-
-                        </td>
-                        <td>
-                            <!-- Contador de visitas -->
-<center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Visits">
-    <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=285585"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'>Visits</a><br><a href='http://www.websmultimedia.com/diseno-logotipos'></a></center>
-    <!-- Fin Contador de visitas -->
-                        </td>
-                    </tr>
-                </table>
-            </div>
+                            <div class="ion-text-center">
+                                <ion-card-subtitle class="ion-padding">"El avión de los sueños"</ion-card-subtitle>
+                              <a  href="https://github.com/matiasandov/covidDetector">
+                                <!--<figure >
+                                     id="opacidad" alt="iwatch" width="300" height="300" />
+                                    <figcaption class="centered" >Watch OS app: iHealth</figcaption>
             
-              
-           
+                                </figure> -->
+                                <img src="COMING.jpg" >
+                            </a>
+                            </div>
+
+                          
+
+                        
+                      </ion-col>
+                </ion-row>
+
+              </ion-grid>
+          </ion-card>
+          
+
+
+
+
+          <ion-grid>
+            <ion-row>
+              <ion-col class="ion-float-left">
+                <div>
+                  <h3>float-left</h3>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac vehicula lorem.
+                </div>
+              </ion-col>
+              <ion-col class="ion-float-right">
+                <div>
+                  <h3>float-right</h3>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac vehicula lorem.
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
         
-           </nav>
-            <!-- __________barra_____ -->
+          <ion-grid>
+            <ion-row>
+              <ion-col class="ion-padding">
+                <div>
+                  padding
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-top">
+                <div>
+                  padding-top
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-start">
+                <div>
+                  padding-start
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-end">
+                <div>
+                  padding-end
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col class="ion-padding-bottom">
+                <div>
+                  padding-bottom
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-vertical">
+                <div>
+                  padding-vertical
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-horizontal">
+                <div>
+                  padding-horizontal
+                </div>
+              </ion-col>
+              <ion-col class="ion-no-padding">
+                <div>
+                  no-padding
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
 
-
-
-
-<!-- __________VIDEO_____________________________ -->
-
-
-<br>
-
-<!-- __________VIDEO_____________________________ -->
-
-
-
-
-
-
-
-    <!-- __________div de info principal______style="background-color:#292827;"_______________________ -->
-<div id="miInfoPrincipal" class="centerTodo"   >
-        <h1 style="color:snow; font-size: 3rem; "> Matías Sandoval</h1>
-    <p><i>Welcome!</i></p>
-
-    <!--Las imágenes tienen que estar guardardas en el mismo folder style="color: snow; font-size: 2rem; text-justify: center; text-align:justify;-->
-    <div> <img src="yo.jpg" width="300" height="300" >
-     <img src="hitec.jpeg" width="300" height="300" >
-     <img src="cadaques.jpeg" width="300" height="300" >
+          <div  class="ion-text-center">
+            <h3>Hobbies</h3>
+          </div>
+          
+          <div class="col-lg-8">
+            <div class="main-banner header-text">
+                <div class="Modern-Slider">
+                  <!-- Item -->
+                  <div class="item">
+                    <div class="img-fill">
+                        <img src="arte.jpg" alt="">
+                    </div>
+                  </div>
+                  <!-- // Item -->
+                  <!-- Item -->
+                  <div class="item">
+                    <div class="img-fill">
+                        <img src="bici.jpg" alt="">
+                    </div>
+                  </div>
+                  <!-- // Item -->
+                  <!-- Item -->
+                  <div class="item">
+                    <div class="img-fill">
+                        <img src="hitec.jpeg" alt="">
+                    </div>
+                  </div>
+                  <!-- // Item -->
+                </div>
+            </div>
+        </div>
     </div>
-
-     <h1 id="parrafoINFOprin" > Hey there! Thanks for coming, every single human being is welcomed in here. So basically this me. I like considering myself as an impatient guy who wants to make the world a better place through my passions (programming, raisefunding, art, etc). I invite to know me a litlle more through my blog. </h1>
-
-     <div>
-
-     </div>
-    
-        
-        
-    
-
 </div>
+          
+          
 
 
-
-<!-- __________div de info principal______________________________________ -->
-
-
- <!-- __________div de proyectos_____________________________ -->
- <div id="miInfoPrincipal" class="centerTodo" style="background-color:#292828;" >
-        <h1 style="color:snow; font-size: 3rem;"> P R O J E C T S</h1>
-
-    <!--Las imágenes tienen que estar guardardas en el mismo folder-->
-
-    <div  class="container" > 
-
-        <a  href="https://github.com/a01422885/iHealth">
-        <figure >
-            <img src="iwatch.jpg" id="opacidad" alt="iwatch" width="300" height="300" />
-            <figcaption class="centered" >Watch OS app: iHealth</figcaption>
-        </figure>
-        </a>
-
+      </ion-content>
 
     </div>
 
-    <div class="container">
-        <a  href="https://ctrl-alt-tec.github.io/CovidApp/">
-            <figure >
-                <img src="covidapp.png" id="opacidad" alt="covidApp" width="300" height="300" />
-                <figcaption class="centered" >CovidApp</figcaption>
-            </figure>
-            </a>
-    </div>
-
-    <div class="container">
-        <a href="https://github.com/matiasandov/covidDetector/tree/master/Desktop/covidDetector" >
-            <figure >
-                <img src="COMING.jpg" id="opacidad" alt="COMING" width="300" height="300" />
-                <figcaption class="centered" >Covid Tracker Device</figcaption>
-            </figure>
-            </a>
-    </div>
-
-</div> <!-- __________div de proyectos______________________________________ -->
-
-
- <!-- __________div de PUBLICACIONES_____________________________ -->
- <div id="miInfoPrincipal" class="centerTodo" style="background-color:#393737;" >
-    <h1 style="color:snow; font-size: 3rem;">  P U B L I C A T I O N S </h1>
-
-<!--Las imágenes tienen que estar guardardas en el mismo folder-->
     
-    <div  class="container" > 
-
-        <a  href="https://www.instagram.com/matiasr.embajadorestec/">
-        <figure >
-            <img src="embajador.jpeg" id="opacidad" alt="embajador" width="300" height="300" />
-            <figcaption class="centered" > Tec Ambassador </figcaption>
-        </figure>
-        </a>
-
-
-    </div>
-
-    <div class="container">
-        <a  href="https://tec.mx/es/noticias/cuernavaca/institucion/3-generaciones-de-liderazgo-en-accion">
-            <figure >
-                <img src="litros.jpeg" id="opacidad" alt="litros" width="300" height="300" />
-                <figcaption class="centered" >Litros de Ayuda</figcaption>
-            </figure>
-            </a>
-    </div>
-
-    <div class="container">
-        <a  href="https://blog.ctrl-alt-tec.hackclub.com/?post=hackquaranine-20">
-            <figure >
-                <img src="ctrl.jpeg" id="opacidad" alt="ctrl" width="300" height="300" />
-                <figcaption class="centered" >Ctrl Alt Tec</figcaption>
-            </figure>
-            </a>
-    </div>
-
-</div> <!-- __________div de PUBLICACIONES______________________________________ -->
-
- <!-- __________div de Hobbies _____________________________ -->
- <div id="miInfoPrincipal" class="centerTodo" style="background-color:#292828;" >
-    <h1 style="color:snow; font-size: 3rem;">  H O B B I E S   </h1>
-
-<!--Las imágenes tienen que estar guardardas en el mismo folder-->
-
-<table>
-    <tr>
-        <td>
-            <div  class="container" > 
-
-                <a >
-                <figure >
-                    <img src="bici.jpeg" id="opacidad" alt="embajador" width="300" height="300" />
-                    <figcaption class="centered" > Biking </figcaption>
-                </figure>
-                </a>
-        
-        
-            </div>
-
-        </td>
-            
-        <td>
-            <div class="container">
-                <a >
-                    <figure >
-                        <img src="arte.jpeg" id="opacidad" alt="litros" width="300" height="300" />
-                        <figcaption class="centered" >Art</figcaption>
-                    </figure>
-                    </a>
-            </div>
-
-
-        </td>
-
-        <td>
-            <div class="container">
-                <a  >
-                    <figure >
-                        <img src="cine.jpeg" id="opacidad" alt="cine" width="300" height="300" />
-                        <figcaption class="centered" >Cinematography</figcaption>
-                    </figure>
-                    </a>
-            </div>
-
-
-        </td>
-    </tr>
-        <!-- segunda filaaaaaaa -->
-
-    <tr>
-        <td>
-            <div class="container">
-                <a  >
-                    <figure >
-                        <img src="speak.jpeg" id="opacidad" alt="speak" width="300" height="300" />
-                        <figcaption class="centered" >Public Speaking</figcaption>
-                    </figure>
-                    </a>
-            </div>
-
-        </td>
-
-        <td>
-
-            <div class="container">
-                <a  >
-                    <figure >
-                        <img src="travel.jpeg" id="opacidad"  width="300" height="300" />
-                        <figcaption class="centered" >Traveling </figcaption>
-                    </figure>
-                    </a>
-            </div>
-
-        </td>
-
-        <td>
-
-            <div class="container">
-                <a  >
-                    <figure >
-                        <img src="volunteer.jpeg" id="opacidad"  width="300" height="300" />
-                        <figcaption class="centered" >Volunteering</figcaption>
-                    </figure>
-                    </a>
-            </div>
-
-        </td>
-
-
-
-    </tr>
-
-
-</table>
-
-
-
-</div> <!-- __________div de hobbies______________________________________ -->
-
-<!--Las imágenes tienen que estar guardardas en el mismo folder-->
-    
-
-
-
-
-</body>
-</html>
+  </ion-app>
