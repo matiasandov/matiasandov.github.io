@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+
+    <title>Matías Méndez</title>
+<!--Style siempre va dentro de head y las classes se definen con "." al principio-->
+</head>
+
+<ion-app>
+    <!-- menu de lado, siempre debe de ir al principio para aplicarse en todas las página-->
+    <ion-menu side="start" content-id="main-content">
+      <ion-header>
+          <!--aqui solo por estetica tambien usas toolbar-->
+        <ion-toolbar translucent>
+          <ion-title>Matías Méndez </ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list >
+          <ion-item href="mailto:matt.sandov@gmailcom?subject=your title&body=TThe message" >
+            <ion-icon name="at-outline"  size="large"  ></ion-icon>
+            <ion-label >Email</ion-label>
+            <!-- <ion-card-subtitle>Email-me</ion-card-subtitle> -->
+          </ion-item>
+
+          <ion-item href="https://github.com/matiasandov">
+            <ion-icon name="logo-github"  size="large"></ion-icon> 
+            <ion-label >GitHub</ion-label>
+               
+          </ion-item>
+
+          <ion-item href="https://www.linkedin.com/in/matiasmrms/">
+            <ion-icon name="logo-linkedin"   size="large"></ion-icon>
+            <ion-label >LinkedIn</ion-label>
+
+          </ion-item>
+      
+          
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+
+<!--aqui empieza el body ya-->
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title>Matías Méndez</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-card class="ion-text-center" >
+            <img src="yo.jpg" class="ion-padding" >
+            <ion-card-header>
+              <ion-card-subtitle>About me</ion-card-subtitle>
+              <ion-card-title>Matías Méndez</ion-card-title>
+            </ion-card-header>
+            <ion-card-content class="ion-padding" >
+                Hey there! Thanks for coming, every single human being is welcomed in here. So basically this me. I like considering myself as an impatient guy who wants to make the world a better place through my passions (programming, raisefunding, art, etc). I invite to know me a litlle more through my blog.  
+           </ion-card-content>
+          </ion-card>
+
+          <!--- proyectos_____________________________-->
+
+          <ion-card>
+            <ion-grid>
+                <ion-row>
+                  <ion-col>
+                    <div  class="ion-text-center">
+                      <h3>Projects</h3>
+                    </div>
+                  </ion-col>
+                </ion-row>
+    
+                <ion-row>
+    
+                  <ion-col class="ion-padding">
+                    
+                    <ion-card>
+                      <div class="ion-text-center" class="ion-padding">
+                        <ion-card-subtitle class="ion-padding">iHeatlh</ion-card-subtitle>
+                      <a  href="https://github.com/a01422885/iHealth">
+                        <!--<figure >
+                             id="opacidad" alt="iwatch" width="300" height="300" />
+                            <figcaption class="centered" >Watch OS app: iHealth</figcaption>
+    
+                        </figure> -->
+                        <img src="watchF.png"  >
+                    </a>
+                    </div>
+
+                    </ion-card>
+                        
+                    
+                    
+                  </ion-col>
+
+                  <ion-col class="ion-padding">
+                      <ion-card>
+                        <div class="ion-text-center">
+                          <ion-card-subtitle class="ion-padding">CovidApp</ion-card-subtitle>
+                        <a  href="https://ctrl-alt-tec.github.io/CovidApp/">
+                          <!--<figure >
+                               id="opacidad" alt="iwatch" width="300" height="300" />
+                              <figcaption class="centered" >Watch OS app: iHealth</figcaption>
+      
+                          </figure> -->
+                          <img src="covidF.png" >
+                      </a>
+                      </div>
+                      </ion-card>
+                        
+                
+
+                    
+                  </ion-col>
+                </ion-row>
+
+
+                <ion-row>
+                    <ion-col class="ion-padding">
+                        <ion-card>
+                          <div class="ion-text-center">
+                            <ion-card-subtitle class="ion-padding">Covid Tracker Device</ion-card-subtitle>
+                            <a  href="https://github.com/matiasandov/covidDetector"></a>
+                            
+                            <img src="cruzF.png" >
+                        </a>
+                        </div>
+                        </ion-card>
+                            
+                        
+
+                      </ion-col>
+
+                      <ion-col class="ion-padding">
+                          
+                          <ion-card>
+                            <div class="ion-text-center">
+                              <ion-card-subtitle class="ion-padding">"El avión de los sueños" (Coming soon)</ion-card-subtitle>
+                              
+                              <img src="avionF.png" >
+                          </a>
+                          </div>
+
+                          </ion-card>
+
+
+                        
+                      </ion-col>
+                </ion-row>
+
+              </ion-grid>
+          </ion-card>
+
+          <!-- boton curriculum-->
+          <ion-card class="ion-text-center">
+            <ion-card-header>
+              <ion-card-subtitle> </ion-card-subtitle>
+              <ion-card-title>Information</ion-card-title>
+            </ion-card-header>
+            <ion-card-content class="ion-padding" >
+              
+              <ion-button C:\Users\Lenovo\Desktop\proyectos\miBlog\matiasandov.github.io\curriculum2021.pdf>Resumé</ion-button>
+           </ion-card-content>
+          </ion-card>
+          
+
+
+
+<!-- 
+          <ion-grid>
+            <ion-row>
+              <ion-col class="ion-float-left">
+                <div>
+                  <h3>float-left</h3>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac vehicula lorem.
+                </div>
+              </ion-col>
+              <ion-col class="ion-float-right">
+                <div>
+                  <h3>float-right</h3>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac vehicula lorem.
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        
+          <ion-grid>
+            <ion-row>
+              <ion-col class="ion-padding">
+                <div>
+                  padding
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-top">
+                <div>
+                  padding-top
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-start">
+                <div>
+                  padding-start
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-end">
+                <div>
+                  padding-end
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col class="ion-padding-bottom">
+                <div>
+                  padding-bottom
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-vertical">
+                <div>
+                  padding-vertical
+                </div>
+              </ion-col>
+              <ion-col class="ion-padding-horizontal">
+                <div>
+                  padding-horizontal
+                </div>
+              </ion-col>
+              <ion-col class="ion-no-padding">
+                <div>
+                  no-padding
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+  -->
+          
+
+
+      </ion-content>
+
+    </div>
+
+    
+  </ion-app>
